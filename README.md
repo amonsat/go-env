@@ -2,6 +2,12 @@
 Simple go lib for environment variables with default values.
 ## Use
 
+Functions:
+- GetBool()
+- GetString()
+- GetInt()
+- GetFloat()
+
 ### Basic Use
 
 ```go
