@@ -8,12 +8,17 @@ Functions:
 - GetInt()
 - GetFloat()
 
+### Instalation
+```
+	go get github.com/amonsat/go-env
+```
+
 ### Basic Use
 
 ```go
 package main
 
-import env "github.com/Amonsat/go-env"
+import env "github.com/amonsat/go-env"
 
 func main() {
 	debug := env.GetBool("DEBUG", false)
