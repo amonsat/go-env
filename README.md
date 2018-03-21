@@ -20,8 +20,11 @@ package main
 
 import env "github.com/amonsat/go-env"
 
-func main() {
+var (
 	debug := env.GetBool("DEBUG", false)
+)
+
+func main() {
 	println("Debug mode: ", debug)
 }
 ```
