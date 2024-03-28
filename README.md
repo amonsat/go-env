@@ -14,6 +14,7 @@ Functions:
 - GetFloat64()
 - GetUint()
 - GetUint64()
+- GetDuration()
 
 ### Instalation
 
